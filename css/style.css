@@ -8,6 +8,8 @@ font-family: 'Work Sans', sans-serif;
 
 h1 {line-height: 120%;}
 
+a {text-decoration: none;}
+
 .slo {
 background-color: rgb(218,112,214, .5);
 background-blend-mode: multiply;
