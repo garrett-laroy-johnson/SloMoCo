@@ -1,0 +1,53 @@
+@font-face {
+  font-family: avenir;
+  font-weight: bold;
+  src: url('../fonts/avenir.ttc') format('TTC');
+}
+
+.navbar-toggler {
+
+    color: black !important;
+
+}
+
+
+body {
+  background-image: url("../img/slomoco-grun.svg");
+  background-repeat: no-repeat;
+
+}
+
+P, li {
+
+  background-blend-mode: multiply;
+  font-size: 20px;
+  font-family: Minion-Pro, serif;
+
+}
+
+h1, h2, h3, h4, h5 {
+  background-color: black;
+  color: white;
+  font-family: orator-std, monospace;
+}
+
+main.container {
+  padding-top:40%;
+  padding-left: 25%;
+}
+
+a {
+  color: rgb(112, 218, 116, 1);
+    background-color: rgb(112,20,255,.5);
+
+}
+
+a:hover {
+color: rgb(112,218,116,1);
+
+  background-color: rgb(218,112,214, .5);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift 1s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23DA70D6' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
